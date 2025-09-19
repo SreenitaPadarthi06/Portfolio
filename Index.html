@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>My Portfolio</title>
+ <link rel="stylesheet" href="./Portfolio.css">
+</head>
+<body>
+
+  <nav>
+    <div class="logo">My Portfolio</div>
+    <div class="menu-toggle" id="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#details">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="https://github.com/SreenitaPadarthi06"><i class="fab fa-github" style="font-size: 20px;"></i></a></li>
+    </ul>
+  </nav>
+  <div class="menu-icon" onclick="openMenu()">☰</div>
+  </nav>
+
+<!-- Mobile Menu -->
+<div class="menu-icon" onclick="openMenu()">☰</div>
+
+<!-- Sidebar Menu -->
+<div class="sidebar" id="sidebar">
+  <div class="close-btn" onclick="closeMenu()">✖</div>
+  <ul>
+    <li><a href="#home" onclick="closeMenu()">Home</a></li>
+    <li><a href="#about" onclick="closeMenu()">About</a></li>
+    <li><a href="#education" onclick="closeMenu()">Education</a></li>
+    <li><a href="#projects" onclick="closeMenu()">Projects</a></li>
+    <li><a href="#achievements" onclick="closeMenu()">Achievements</a></li>
+    <li><a href="#contact" onclick="closeMenu()">Contact</a></li>
+    <li><a href="https://github.com/SreenitaPadarthi06"><i class="fab fa-github" style="font-size: 20px;"></i></a></li>
+  </ul>
+</div>
+
+
+<section id="home">
+  <div class="container">
+    
+    <!-- Left (Profile Image) -->
+    <div class="left">
+      <img src="Sree.png" alt="Profile Image">
+    </div>
+    
+    <!-- Right (Introduction) -->
+    <div class="right">
+      <h1>Hello, 👋<br> I'm <span>Sreenita Padarthi</span></h1>
+      <p>
+        I’m a passionate learner and an aspiring <strong>Web Developer</strong>, currently
+        training in <strong>Full Stack Development</strong> with a focus on <strong>React Native</strong>.  
+        I love exploring new technologies, solving problems, and building creative projects.
+      </p>
+      <a href="#contact" class="btn">📩 Contact Me</a>
+    </div>
+
+  </div>
+
+  <!-- Floating background shapes -->
+  <div class="shape shape1"></div>
+  <div class="shape shape2"></div>
+  <div class="shape shape3"></div>
+  <div class="shape shape4"></div>
+  <div class="shape shape5"></div>
+</section>
+
+<div class="shape shape5"></div>
+  <section id="details">
+    <h2 class="section-title">👤About</h2>
+  <div class="container">    
+        <!-- Tech Stack -->
+ <div class="detail-box">
+      <h2>Tech Stack</h2>
+      <div class="tech-stack">
+       <figure> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML"><figcaption>HTML</figcaption></figure>
+       <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS"><figcaption>CSS</figcaption></figure>
+       <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"><figcaption>JavaScript</figcaption></figure>  
+        <figure><img src="https://logodix.com/logo/2062446.png" alt="Bootstrap"><figcaption>Bootstarp</figcaption></figure>   
+       <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><figcaption>Java</figcaption></figure>
+       <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python"><figcaption>Python</figcaption></figure>
+       <figure><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"><figcaption>C</figcaption></figure>
+       <figure><img src="https://tse1.mm.bing.net/th/id/OIP.eBmBl9jYw1iFAT2YVEpKJQAAAA?pid=Api&h=220&P=0" alt="SQL"><figcaption>SQL</figcaption></figure>
+      </div>
+    </div>
+
+    <!-- Coding Profiles -->
+    <div class="detail-box">
+      <h2>Coding Profiles</h2>
+      <div class="profiles">
+        <a href="https://leetcode.com/u/Sree2006/" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png" alt="LeetCode">
+        </a>
+        <a href="https://www.codechef.com/users/sree2006" target="_blank">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.akLd00A7PxAlv3QLaOdnaQHaC3?pid=Api&h=220&P=0"  alt="Codechef">
+        </a>
+        <a href="https://www.geeksforgeeks.org/user/sreenitapzkrj/" target="_blank">
+          <img src="https://tse2.mm.bing.net/th/id/OIP.2KCXnP7qEjCWEb6hc3eb_AHaFM?pid=Api&h=220&P=0" alt="GfG">
+        </a>
+        <a href="https://www.hackerrank.com/profile/23A91A4445" target="_blank">
+          <img src="https://tse3.mm.bing.net/th/id/OIP.b2MTojuGNu0G0p6-bEHQPgAAAA?pid=Api&h=220&P=0" alt="Hackerrank">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- EDUCATION TIMELINE (HTML) -->
+<section id="education">
+  <h2 class="section-title">🎓Education</h2>
+
+  <ul class="timeline">
+    <li class="timeline-item">
+      <div class="item-meta">
+        <span class="year">2023 — 2027</span>
+      </div>
+      <div class="item-body">
+        <h3>Bachelor of Technology in CSE-DS</h3>
+        <p><strong>CGPA: 9.17</strong>(till date)</p>
+        <p><strong>Aditya Engineering College</strong></p>
+        
+      </div>
+    </li>
+    <li class="timeline-item">
+      <div class="item-meta">
+        <span class="year">2021-2023</span>
+      </div>
+      <div class="item-body">
+        <p><strong>Intermediate- MPC</strong></p>
+        <p><strong>Kamala Junior College</strong><br>
+          <strong>Percentage - 97.8%</strong></p>
+      </div>
+    </li>
+
+    <li class="timeline-item">
+      <div class="item-meta">
+        <span class="year">2020 — 2021</span>
+      </div>
+      <div class="item-body">
+        <h3>Secondary (Class X)</h3>
+        <p><strong>Vasavi Vidyaniketan School</strong><br>
+           Strong academics and extracurricular participation.</p>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<div class="shape shape7"></div>
+<section id="projects">
+  <h2 class="section-title">💻Projects</h2>
+  
+  <!-- Project 1 -->
+  <div class="project-card">
+    <div class="project-image">
+      <img src="SJ.png" alt="SJ Connect Project">
+    </div>
+    <div class="project-content">
+      <h3>SJ Connect</h3>
+      <p>SJ Connect is a platform that bridges seniors and juniors by allowing 
+      knowledge sharing, doubt clarification through an anonymous box, and 
+      real-life experiences from seniors.</p>
+      <a href="https://classy-blini-1ce038.netlify.app/" target="_blank" class="btn">Know More</a>
+    </div>
+  </div>
+  <!-- Project 2 -->
+   <div class="project-card">
+    <div class="project-content">
+    <h3>Snow Rush</h3>
+    <p>
+      Designed a game called <b style="color: rgb(0, 255, 255);">Snow Rush</b> in landscape mode using <b style="color: aqua;">Buildbox software</b>.
+      As it is a drag and drop interface the pictures can be dragged into the interface.The theme of game is snow theme where character can collect the
+      coins and escapes from the enemies. Some elements are involved to boost the character and to collect coins more frequently.
+    </p>
+    <a href="https://youtu.be/R07UpkBmWJ0" target="_blank" class="btn">Know More</a>
+  </div>
+  <div class="project-image">
+    <img src="Snow Rush.png" alt="Snow Rush Project">
+  </div>
+</div>
+
+</section>
+<div class="shape shape8"></div>
+<section id="achievements" class="certifications">
+  <h2>🏆 Achievements & Certifications</h2>
+  <div class="badge-container">
+    
+    <!-- Example Certification Badge -->
+    <a href="Gamedesign.jpg" target="_blank" class="badge">
+      <img src="Gamedesign.jpg" alt="Game designing workshop">
+      <span>Game Designing</span>
+    </a>
+
+    <a href="Oracle certification.png" target="_blank" class="badge">
+      <img src="https://up.yimg.com/ib/th/id/OIP.5x0bqIWJZ0Q912i6olkDLwHaEK?pid=Api&rs=1&c=1&qlt=95&w=215&h=120" alt="AWS Cloud Practitioner Badge">
+      <span>Java Oracle certification</span>
+    </a>
+
+    <a href="Python.png" target="_blank" class="badge">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.3sVfEMV_IT3GntcG3IJ3oQHaEK?pid=Api&h=220&P=0" alt="Python-Redhat">
+      <span>Python-Redhat</span>
+    </a>
+
+    
+  </div>
+</section>
+
+  <section id="contact">
+  <div class="contact">
+    <div class="cheading">Let's connect</div>
+    <form class="contact-form">
+      <div class="row">
+        <input type="text" placeholder="Firstname" required>
+        <input type="text" placeholder="Lastname" required>
+      </div>
+      <textarea placeholder="Your message" required></textarea>
+      <input type="email" placeholder="Mail address" required>
+      <button type="submit"> Send</button>
+      <div class="fonticons">
+       <a href="https://www.linkedin.com/in/sreenita-padarthi-264932290/"> <i class="fa-brands fa-linkedin" id="f1"></i></a>
+        <a href="https://github.com/SreenitaPadarthi06"><i class="fab fa-github"  style="font-size: 20px;"></i></a>
+        <div class="mailing"><i  class="fa-solid fa-phone"></i> +91 6300024932</div>
+      <div class="calling"><i class="fa-solid fa-envelope"></i> sreenitapadarthi@gmail.com</div>
+      </div>
+    </form>
+  </div>
+</section>
+<footer>© 2025 Sreenita. All rights reserved</footer>
+
+  <script>
+    
+    function openMenu() {
+    document.getElementById("sidebar").style.right = "0";
+  }
+  function closeMenu() {
+    document.getElementById("sidebar").style.right = "-260px";
+  }
+
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+    menuToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+    
+  function openMenu() {
+    document.getElementById("sidebar").style.right = "0";
+  }
+
+  function closeMenu() {
+    document.getElementById("sidebar").style.right = "-250px";
+  }
+
+
+  </script>
+
+</body>
+</html>
